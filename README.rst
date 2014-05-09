@@ -29,9 +29,9 @@ Add the interface to your content type class
 	from operun.unique.interfaces import IUnique
 
 	class ContentType(xxx):
-    	"""Content Type
-    	"""
-    	implements(IContentType, IUnique)
+        """Content Type
+        """
+        implements(IContentType, IUnique)
 
 
 Uninstalling
