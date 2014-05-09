@@ -24,7 +24,7 @@ Add this line in the eggs section of your ``buildout.cfg``
 
 Add the interface to your content type class
 
-.. code:: ini
+.. code:: py
 
 	from operun.unique.interfaces import IUnique
 
