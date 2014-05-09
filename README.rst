@@ -33,7 +33,7 @@ Add the interface to your content type class
 	class ContentType(xxx):
     	"""Content Type
     	"""
-
+	
     implements(IContentType, IUnique)
 
 	...
