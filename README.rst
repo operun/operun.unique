@@ -24,14 +24,14 @@ Add this line in the eggs section of your ``buildout.cfg``
 
 Add the interface to your content type class
 
-.. code::
+.. code:: python
 
     from operun.unique.interfaces import IUnique
 
     class ContentType(xxx):
-	    """Content Type
-	    """
-	    implements(IContentType, IUnique)
+        """Content Type
+        """
+        implements(IContentType, IUnique)
 
 
 Uninstalling
